@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnThungrac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Thùng rác"
+        android:icon="@drawable/delete"/>
+    <item
+        android:id="@+id/mnCaidat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Cài đặt"
+        android:icon="@drawable/baseline_settings_24"/>
+    <item
+        android:id="@+id/mnMaunen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Màu nền"
+        android:icon="@drawable/baseline_gesture_24"/>
+    <item
+        android:id="@+id/mnHoanThanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Đã hoàn thành"
+        android:icon="@drawable/baseline_gesture_24"/>
+</menu>

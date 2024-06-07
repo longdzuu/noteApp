@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="pk_Fragment.GhiChuFragment"
+    android:background="#0C2036">
+
+    <ListView
+        android:id="@+id/lvGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/black"
+        android:dividerHeight="1sp"
+        android:layout_marginTop="5sp" />
+    <Button
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        app:backgroundTint = "@null"
+        android:drawableTop="@drawable/baseline_create_24"
+        android:background="@drawable/design_btn"
+        android:paddingTop="18sp"
+        android:layout_marginTop="430sp"
+        android:layout_marginLeft="300sp"
+        android:id="@+id/btnThem"/>
+
+
+</RelativeLayout>

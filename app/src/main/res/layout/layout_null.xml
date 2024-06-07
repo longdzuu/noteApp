@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0C2036">
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/note"
+        android:layout_gravity="center"
+        android:alpha="0.5"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chưa có ghi chú nào"
+        android:textSize="20sp"
+        android:layout_marginTop="5sp"
+        android:textColor="#A89F9F"/>
+    <Button
+        android:id="@+id/btnThemnull"
+        android:layout_width="210sp"
+        android:layout_height="60sp"
+        android:background="@drawable/custom_btn"
+        app:backgroundTint = "@null"
+        android:text="Thêm ghi chú"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:drawableLeft="@drawable/baseline_add_24"/>
+
+
+
+
+
+</LinearLayout>

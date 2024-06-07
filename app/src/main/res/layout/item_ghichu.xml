@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#0C2036"
+    android:stateListAnimator="@drawable/click_list_item">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp">
+        <TextView
+            android:id="@+id/tvTieuDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiêu Đề"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20sp"/>
+        <TextView
+            android:id="@+id/tvThoiGian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thời gian"
+            android:textSize="15sp"
+            android:textColor="#777272"
+            android:layout_marginLeft="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="100sp"
+        android:layout_height="75sp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tvTrangThai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/baseline_star_24"
+            android:layout_marginTop="10sp"
+            />
+        <TextView
+            android:id="@+id/tvTuyChon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/baseline_more_vert_24"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="5sp"
+            android:stateListAnimator="@drawable/click_list_item"/>
+
+    </LinearLayout>
+</LinearLayout>
